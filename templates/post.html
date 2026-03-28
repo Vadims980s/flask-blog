@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="/static/blogstyle.css">
+</head>
+<body>
+    <div class="post">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        {% if post.content_image %}
+            <img src="{{ url_for('static', filename='blog_images/' + post.content_image) }}" width="400">
+        {% endif %}
+        <p>By: {{ post.username }}</p>
+
+        {% if current_user.is_authenticated and current_user.id == post.author_id %}
+            <form method="POST" action="{{ url_for('delete_post', post_id=post.id) }}">
+                <button type="submit">Delete</button>
+            </form>
+        {% endif %}
+    </div>
+</body>
+</html>
