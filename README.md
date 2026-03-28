@@ -17,3 +17,4 @@ To see how this works on the web, visit <a href="https://vadim980.pythonanywhere
 4. Start the local server
 5. Now open it, and the blog should work!
 
+<img src="https://github.com/Vadims980s/flask-blog/blob/main/screenshot.png">
