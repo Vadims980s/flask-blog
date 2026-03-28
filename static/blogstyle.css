@@ -1,0 +1,81 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #f0f0f0;
+   color: #333;
+   line-height: 1.6;
+}
+
+.username_buttons {
+    line-height: 0.7;
+    text-align: left;
+}
+
+.blog {
+   margin: auto;
+   max-width: 800px;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: 500;
+   margin: 0;
+   color: #008cff;
+   text-align: center;
+}
+
+.card {
+   border: none;
+   padding: 20px;
+   margin-bottom: 30px;
+   background-color: #fff;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+
+
+a, .username {
+   text-decoration: none;
+   color: #008cff;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #008cff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.author {
+    color: gray;
+    text-align: right;
+}
+
+.message {
+    color: red;
+}
