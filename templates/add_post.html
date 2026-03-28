@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/static/blogstyle.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Add New Post</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label>Title:</label>
+            <br>
+            <input type="text" name="title" required>
+            <br>
+            <label>Content:</label>
+            <br>
+            <textarea rows="15" cols="25" name="content" required></textarea>
+            <br>
+            <label>Image (optional):</label>
+            <br>
+            <label><small><small>Note: Only accepts .png, .jpg, .jpeg, .gif and .svg images</small></small></label>
+            <br>
+            <input type="file" name="image" accept="image/png, image/jpg, image/jpeg, image/gif, image/svg+xml">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
