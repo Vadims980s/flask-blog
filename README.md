@@ -13,7 +13,6 @@ To see how this works on the web, visit <a href="https://vadim980.pythonanywhere
 3. Install the following libraries (using <code>pip install</code>):
 
 **Flask**
-
 **Flask-Login**
 
 5. Start the local server
