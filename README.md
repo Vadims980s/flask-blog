@@ -12,7 +12,9 @@ To see how this works on the web, visit <a href="https://vadim980.pythonanywhere
 2. Open up Control Panel and open up Python
 3. Install the following libraries (using <code>pip install</code>):
 **Flask**
+
 **Flask-Login**
-4. Start the local server
-5. Now open it, and the blog should work!
+
+5. Start the local server
+6. Now open it, and the blog should work!
 
