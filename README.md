@@ -11,9 +11,8 @@ To see how this works on the web, visit <a href="https://vadim980.pythonanywhere
 1. Clone the respitory
 2. Open up Command Prompt and open up Python
 3. Install the following libraries (using <code>pip install</code>):
-
-**Flask**, **Flask-Login**
-
+* **Flask**
+* **Flask-Login**
 4. Start the local server
 5. Now open it, and the blog should work!
 
